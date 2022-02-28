@@ -1,3 +1,5 @@
+import 'package:form_validator/src/i18n/ar.dart';
+
 import '../locale.dart';
 import 'az.dart';
 import 'ca_es.dart';
@@ -31,6 +33,8 @@ const localeMap = <String, FormValidatorLocale>{
   'he': LocaleHe(),
   'ja': LocaleJa(),
   'jp': LocaleJp(),
+  'ar': LocaleAr(),
+
 };
 
 final supportedLocales = localeMap.keys.toList();
